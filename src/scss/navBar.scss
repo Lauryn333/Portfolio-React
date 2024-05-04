@@ -1,8 +1,15 @@
 .liste-navBar {
   text-decoration: none;
+  color: #f2c987;
+  font-size: 1.2rem;
 }
 
 ul {
   display: flex;
   justify-content: space-around;
+}
+
+nav {
+  background-color: #320d0c;
+  padding: 0.7rem;
 }
