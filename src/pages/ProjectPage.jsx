@@ -1,12 +1,16 @@
 import { useParams } from "react-router-dom";
+import projets from "../js/projets";
 
 function ProjectPage() {
   const { id } = useParams();
+  const ChosenProject = projets.find((project) => project.id === parseInt(id));
+
   return (
-    <>
-      <h1>Page un projet</h1>
-      <Link to="/projectsPage/projectPage"> Project</Link>
-    </>
+    <section className="ProjectPageComponent">
+      <h1>ProjectPage {id} </h1>
+
+      <p>Description: {ChosenProject.description}</p>
+    </section>
   );
 }
 
