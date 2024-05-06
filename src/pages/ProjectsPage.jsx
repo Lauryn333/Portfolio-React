@@ -1,12 +1,11 @@
 import { Link } from "react-router-dom";
+import ProjectList from "../components/ProjectList";
+import projetsListe from "../js/projets";
 function ProjectsPage() {
   return (
     <>
-      <Link className="" to="/projectPage">
-        Project
-      </Link>
-
-      <h1>Page des projets</h1>
+      <h1>Mes projets</h1>
+      <ProjectList projets={projetsListe} />
     </>
   );
 }
