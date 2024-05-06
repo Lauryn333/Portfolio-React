@@ -1,3 +1,15 @@
 * {
-  color: black;
+  box-sizing: border-box;
 }
+body {
+  margin: 0;
+  background-color: #807970;
+}
+
+/* Test palette de couleur
+.color1 {color: #f498af;}
+.color2 {color: #f2c987;}
+.color3 {color: #320d0c;}
+.color4 {color: #887674;}
+.color5 {color: #f3eae8;}
+*/

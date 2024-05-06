@@ -1,0 +1,48 @@
+@font-face {
+  src: url(../assets/font/rolling_stright/Rolling\ Stright.otf);
+  font-family: "MaPoliceTest";
+}
+
+.global-div-home > h1 {
+  font-family: "MaPoliceTest";
+  letter-spacing: 10px;
+  font-size: 4rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.global-div-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  margin-top: 5rem;
+}
+
+.photo-Lauryn {
+  width: 15rem;
+  height: 15rem;
+  object-fit: cover;
+  border-radius: 50rem;
+}
+
+.first-div-home {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 3rem;
+}
+
+.global-div-home > h1 {
+  color: #f3eae8;
+}
+
+.button-home {
+  border-radius: 10rem;
+  background-color: #320d0c;
+  color: #f2c987;
+  padding: 1rem;
+  font-size: 1rem;
+}
