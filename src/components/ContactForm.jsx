@@ -25,7 +25,7 @@ function ContactForm() {
   return (
     <>
       <form>
-        <label htmlFor="firstName">Prénom :</label>
+        <label htmlFor="firstName">Prénom </label>
         <input
           required
           id="firstName"
@@ -34,7 +34,7 @@ function ContactForm() {
           value={firstName}
           onChange={handleChangeFirstName}
         />
-        <label htmlFor="lastName">Nom :</label>
+        <label htmlFor="lastName">Nom </label>
         <input
           required
           id="lastName"
@@ -43,7 +43,7 @@ function ContactForm() {
           value={lastName}
           onChange={handleChangeLastName}
         />
-        <label htmlFor="mail">Mail :</label>
+        <label htmlFor="mail">Mail </label>
         <input
           required
           id="mail"
@@ -52,7 +52,7 @@ function ContactForm() {
           value={mail}
           onChange={handleChangeMail}
         />
-        <label htmlFor="message">Message :</label>
+        <label htmlFor="message">Message </label>
         <textarea
           required
           id="message"
@@ -62,7 +62,7 @@ function ContactForm() {
           onChange={handleChangeMessage}
         />
 
-        <button className="button" type="submit">
+        <button className="button-form" type="submit">
           Envoyez votre demande
         </button>
       </form>

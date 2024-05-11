@@ -2,6 +2,8 @@
 .title-contact {
   text-align: center;
   margin: 5rem;
+  color: #f3eae8;
+  font-size: 4rem;
 }
 /***************Contact Form********************/
 form {
@@ -12,10 +14,26 @@ form {
 
 input {
   margin: 2%;
-  width: 20rem;
+  width: 30rem;
+  height: 2rem;
+  border-radius: 10rem;
 }
+
+label {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
 textarea {
   margin: 2%;
-  width: 20rem;
-  height: 5rem;
+  width: 30rem;
+  height: 10rem;
+  border-radius: 2rem;
+}
+
+.button-form {
+  border-radius: 10rem;
+  padding: 0.5rem;
+  background-color: #320d0c;
+  color: #f2c987;
 }
