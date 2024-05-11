@@ -1,0 +1,21 @@
+/***************Contact Page********************/
+.title-contact {
+  text-align: center;
+  margin: 5rem;
+}
+/***************Contact Form********************/
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  margin: 2%;
+  width: 20rem;
+}
+textarea {
+  margin: 2%;
+  width: 20rem;
+  height: 5rem;
+}
