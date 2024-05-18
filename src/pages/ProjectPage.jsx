@@ -9,12 +9,14 @@ function ProjectPage() {
 
   return (
     <section className="project-pagecomponent">
-      <h1>ProjectPage {id} </h1>
-      <h2>{ChosenProject[0].title}</h2>
-      <img src={ChosenProject[0].image} alt="" />
-      <p>Description: {ChosenProject[0].description}</p>
-      <a target="blank" href={ChosenProject[0].link}>
+      <h1>{ChosenProject[0].title}</h1>
+      <img src={ChosenProject[0].image} alt="image du projet" />
+      <p>{ChosenProject[0].description}</p>
+      <a target="blank" href={ChosenProject[0].linkGitHub}>
         Lien GitHub
+      </a>
+      <a target="blank" href={ChosenProject[0].linkDeploy}>
+        Lien du site
       </a>
     </section>
   );
