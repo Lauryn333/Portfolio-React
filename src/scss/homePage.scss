@@ -11,6 +11,11 @@
   text-align: center;
 }
 
+.global-div-home > h2 {
+  color: #f3eae8;
+  font-size: 3rem;
+}
+
 p {
   font-size: 1.2rem;
 }
@@ -33,13 +38,14 @@ p {
 
 .first-div-home {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
 
 .first-div-home p {
-  text-align: center;
+  text-align: justify;
   width: 60%;
+  font-size: 1.5rem;
 }
 
 .button-home {
@@ -55,6 +61,11 @@ p {
   align-items: center;
 }
 
+.techno > h3 {
+  color: #f3eae8;
+  font-size: 2rem;
+}
+
 .sous-unite {
   display: flex;
   flex-direction: column;
@@ -67,4 +78,8 @@ p {
   width: 5vw;
   height: 5vh;
   object-fit: contain;
+}
+
+.sous-unite > p {
+  font-weight: bolder;
 }
