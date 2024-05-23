@@ -13,7 +13,8 @@ function HomePage() {
         <p>
           Après 1 an en tant que Technicienne de laboratoire dans le milieu
           médical, je souhaite me reconvertir dans le domaine du développement
-          web. Actuellement en formation à la Wild Code School, je recherche une
+          web. <br />
+          Actuellement en formation à la Wild Code School, je recherche une
           alternance de 15 mois à partir de septembre 2024.
         </p>
       </div>
