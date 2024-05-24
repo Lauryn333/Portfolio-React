@@ -11,7 +11,7 @@ function Navbar() {
           </Link>
           <Link className="liste-navBar" to="/contact">
             {" "}
-            Formulaire de contact{" "}
+            Contact{" "}
           </Link>
           <Link className="liste-navBar" to="/projectsPage">
             {" "}

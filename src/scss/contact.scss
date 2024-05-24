@@ -1,9 +1,47 @@
 /***************Contact Page********************/
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .title-contact {
   text-align: center;
   margin: 5rem;
   color: #f3eae8;
   font-size: 4rem;
+}
+
+.contact-container {
+  background-color: #f2c987;
+  border-radius: 2rem;
+  width: 40vw;
+  padding: 2rem;
+  box-shadow: 0px 10px 13px -7px #320d0c, 5px 5px 15px 5px #320d0c;
+}
+
+address {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contact-sous-u {
+  margin: 1rem;
+}
+
+.contact-sous-u a {
+  color: #320d0c;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.contact-sous-u img {
+  width: 3vw;
+  height: 3vh;
+  object-fit: contain;
+  margin-right: 0.5rem;
 }
 /***************Contact Form********************/
 form {
