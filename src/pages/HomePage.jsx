@@ -11,9 +11,10 @@ function HomePage() {
       <div className="first-div-home">
         <img className="photo-Lauryn" src={Lauryn} alt="photo-Lauryn" />
         <p>
-          Après 1 an en tant que Technicienne de laboratoire dans le milieu
-          médical, je souhaite me reconvertir dans le domaine du développement
-          web. <br />
+          Après avoir obtenu un Master en Neurosciences et passé un an en tant
+          que technicienne de laboratoire dans le milieu médical, je souhaite me
+          reconvertir dans le domaine du développement web.
+          <br />
           Actuellement en formation à la Wild Code School, je recherche une
           alternance de 15 mois à partir de septembre 2024.
         </p>

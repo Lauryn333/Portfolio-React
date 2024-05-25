@@ -3,6 +3,7 @@ import tel from "../assets/tel.png";
 import mail from "../assets/mail.png";
 import github from "../assets/githubContact.png";
 import linkedin from "../assets/linkedin.png";
+import cv from "../assets/CV.png";
 
 function ContactPage() {
   return (
@@ -41,7 +42,10 @@ function ContactPage() {
           </div>
         </address>
       </div>
-
+      <div className="CV">
+        <h2>Mon CV</h2>
+        <img className="CV-Lauryn" src={cv} alt="CV de Lauryn" />
+      </div>
       {/* <ContactForm /> */}
     </section>
   );
