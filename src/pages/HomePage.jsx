@@ -11,12 +11,14 @@ function HomePage() {
       <div className="first-div-home">
         <img className="photo-Lauryn" src={Lauryn} alt="photo-Lauryn" />
         <p>
-          Après avoir obtenu un Master en Neurosciences et avoir travaillé un an
-          en tant que technicienne de laboratoire dans le milieu médical, je
-          souhaite me reconvertir dans le domaine du développement web.
+          Après avoir obtenu un Master en Neurosciences et avoir travaillé
+          quelques années dans le milieu médical en tant que technicienne de
+          laboratoire, je souhaite me reconvertir dans le domaine du
+          développement web.
           <br />
-          Actuellement en formation à la Wild Code School, je recherche une
-          alternance de 15 mois à partir de septembre 2024.
+          Suite à une formation de 5 mois Full Stack JavaScript à la Wild Code
+          School, je recherche une alternance de 15 mois pour le 23 septembre
+          2024.
         </p>
       </div>
       <h2>Technologies utilisées </h2>
