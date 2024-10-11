@@ -16,9 +16,10 @@ function HomePage() {
           laboratoire, je souhaite me reconvertir dans le domaine du
           développement web.
           <br />
-          Suite à une formation de 5 mois Full Stack JavaScript à la Wild Code
-          School, je recherche une alternance de 15 mois pour le 23 septembre
-          2024.
+          Suite à l'obtention du titre Développeur Web et Web Mobile (Bac +2) à
+          l'issue d'une formation de 5 mois Full Stack JavaScript à la Wild
+          Code, je recherche une alternance de 15 mois à partir de novembre 2024
+          ou février 2025 pour approfondir mes compétences.
         </p>
       </div>
       <h2>Technologies utilisées </h2>
