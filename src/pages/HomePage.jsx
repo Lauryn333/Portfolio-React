@@ -18,8 +18,8 @@ function HomePage() {
           <br />
           Suite à l'obtention du titre Développeur Web et Web Mobile (Bac +2) à
           l'issue d'une formation de 5 mois Full Stack JavaScript à la Wild
-          Code, je recherche une alternance de 15 mois à partir de novembre 2024
-          ou février 2025 pour approfondir mes compétences.
+          Code, je recherche une alternance de 15 mois à partir de février 2025
+          pour approfondir mes compétences.
         </p>
       </div>
       <h2>Technologies utilisées </h2>
